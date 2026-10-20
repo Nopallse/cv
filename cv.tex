@@ -1,0 +1,197 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{geometry}
+
+% Margin proporsional dan rapi
+\geometry{left=1.35cm, right=1.35cm, top=1.35cm, bottom=1.35cm}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{4pt}
+
+% Pengaturan jarak dan layout
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Format Heading Section (Garis bawah rapi dan teks tebal)
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+% Perintah khusus untuk format entri
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1.5pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{1pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{1pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label={--}, itemsep=1.5pt, parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+% -------------------------------------------------------------
+%                          ISI CV
+% -------------------------------------------------------------
+\begin{document}
+
+% ---------- HEADER / KONTAK ----------
+\begin{center}
+    {\Huge \textbf{NAUFAL}} \\ \vspace{3pt}
+    \small Jakarta, Indonesia \enspace$|$\enspace +62 851-1904-5590 \enspace$|$\enspace \href{mailto:noppal.901@gmail.com}{\underline{noppal.901@gmail.com}} \\ \vspace{2pt}
+    \href{https://linkedin.com/in/naaufaal}{\underline{linkedin.com/in/naaufaal}} \enspace$|$\enspace
+    \href{https://github.com/Nopallse}{\underline{github.com/Nopallse}} \enspace$|$\enspace
+    \href{https://nopallse.vercel.app}{\underline{nopallse.vercel.app}}
+\end{center}
+\vspace{-6pt}
+
+% ---------- RINGKASAN PROFIL (SUMMARY) ----------
+\section{Ringkasan Profesional}
+\vspace{1pt}
+\small{
+Software Engineer dengan latar belakang Sistem Informasi dan pengalaman membangun serta mengembangkan aplikasi web dan mobile yang telah digunakan oleh ribuan pengguna. Berpengalaman mengerjakan aplikasi dari tahap pengembangan hingga implementasi, mencakup full-stack development, integrasi API, database, troubleshooting, dan deployment. Terbiasa mengidentifikasi masalah, merancang solusi, mempelajari teknologi baru, serta berkolaborasi dalam tim untuk menghasilkan aplikasi yang scalable, aman, dan dapat digunakan secara operasional.
+}
+\vspace{2pt}
+
+% ---------- PENGALAMAN KERJA (EXPERIENCE) ----------
+\section{Pengalaman Kerja}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+      {PT Mitra Integrasi Informatika (MII)}{Jakarta, Indonesia}
+      {Junior Application Developer -- Penempatan Bank BNI}{Feb 2026 -- Sekarang}
+      \resumeItemListStart
+        \resumeItem{Mengembangkan dan memelihara \textbf{Operational Risk Management System (ORMS)} berskala enterprise yang digunakan secara operasional oleh \textbf{1.800+ unit kerja BNI} (Divisi Kantor Pusat, Kantor Cabang, dan Kantor Luar Negeri).}
+        \resumeItem{Merancang dan mengimplementasikan sistem \textbf{workflow dinamis} untuk seluruh modul serta berkontribusi pada pengembangan modul \textbf{RCSA} (Control Testing, Monitoring Period, dan proses bisnis risiko operasional).}
+        \resumeItem{Melakukan pengembangan end-to-end pada arsitektur \textbf{frontend, backend, dan database} guna mengakomodasi fitur baru, integrasi data, dan implementasi \textit{change request}.}
+        \resumeItem{Melakukan investigasi masalah teknis, perbaikan defect, serta berkolaborasi dengan QA dan stakeholder selama siklus System Integration Testing (SIT) hingga deployment ke production.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Metro Software Indonesia}{Padang, Indonesia}
+      {Website and Mobile Developer}{Mei 2025 -- Feb 2026}
+      \resumeItemListStart
+        \resumeItem{\textbf{Ajakan} (\href{http://ajakan.me}{ajakan.me}) -- Platform SaaS bisnis undangan digital terintegrasi (RSVP, guestbook, Smart WA); memproses \textbf{76.500+ pesanan}, menghubungkan \textbf{5,9+ juta tamu}, dan memberdayakan \textbf{530+ mitra aktif} dengan 150+ template kustomisasi.}
+        \resumeItem{\textbf{Oblix Pilates} (\href{https://oblixpilates.id}{oblixpilates.id}) -- Sistem manajemen studio pilates berbasis web yang aktif mengelola \textbf{180+ member} dan \textbf{2.120+ kelas}, dilengkapi booking real-time, jadwal trainer, waitlist, serta payment gateway Midtrans.}
+        \resumeItem{\textbf{Mitbiz} (\href{https://www.mitbiz.id}{mitbiz.id}) -- Berkontribusi dalam pengembangan produk AI SaaS internal berupa ekosistem AI Sales Agent untuk otomatisasi percakapan pelanggan, kualifikasi lead, dan closing penjualan 24/7.}
+        \resumeItem{\textbf{Ryu Powertools \& Rexco Solution} (\href{https://ryupowertools.com}{ryupowertools.com} $|$ \href{https://rexco-solution.com}{rexco-solution.com}) -- Rebuild dan optimasi website resmi merek PT Altama Surya Anugerah melalui migrasi dari WordPress ke Next.js guna akselerasi performa dan UI/UX.}
+        \resumeItem{\textbf{High Castle Malaysia} (\href{https://highcastle.com.my}{highcastle.com.my}) -- Mengembangkan platform web \& mobile pemesanan studio latihan musik mencakup modul pemesanan musisi, panel admin, dan pemilik studio.}
+        \resumeItem{\textbf{IoT PlayStation Billing System} -- Mengembangkan sistem billing rental PS berbasis mobile \& IoT dengan aktivasi perangkat otomatis, saldo waktu member, dan integrasi transaksi F\&B.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Kominfo Kota Pariaman}{Pariaman, Indonesia}
+      {Full Stack Developer}{Mei 2025 -- Jan 2026}
+      \resumeItemListStart
+        \resumeItem{Mengembangkan aplikasi presensi mobile berbasis geolokasi untuk seluruh Pegawai Negeri Sipil (PNS/ASN) di Kota Pariaman, melayani sekitar \textbf{3.000 pegawai} secara harian di seluruh OPD.}
+        \resumeItem{Menerapkan mekanisme proteksi anti fake GPS serta kebijakan \textit{one device one account} untuk mencegah manipulasi dan kecurangan presensi.}
+        \resumeItem{Mengamankan transmisi dan integritas data presensi menggunakan tanda tangan digital berbasis HMAC.}
+        \resumeItem{Melakukan deployment sistem dan memastikan stabilitas performa harian aplikasi dalam menangani ribuan absensi secara bersamaan.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Bank Nagari}{Padang, Indonesia}
+      {Internship (Web Developer)}{Jan 2025 -- Feb 2025}
+      \resumeItemListStart
+        \resumeItem{Mengembangkan sistem manajemen magang berbasis web untuk Divisi Human Capital Bank Nagari.}
+        \resumeItem{Membangun alur pendaftaran peserta magang, validasi berkas, pengelolaan periode magang, dan database peserta terpusat.}
+        \resumeItem{Meningkatkan efisiensi proses administrasi dan rekapitulasi data magang secara terstruktur.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% ---------- HALAMAN 2 ----------
+\pagebreak
+
+% ---------- PENDIDIKAN (EDUCATION) ----------
+\section{Pendidikan}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Universitas Andalas}{Padang, Indonesia}
+      {Sarjana Sistem Informasi \textnormal{($|$ IPK: 3,80 / 4,00)}}{2022 -- 2026}
+      \resumeItemListStart
+        \resumeItem{Fokus studi: Rekayasa Perangkat Lunak, Analisis Sistem, Manajemen Basis Data, serta Pengembangan Aplikasi Web dan Mobile.}
+        \resumeItem{Asisten Dosen Praktikum Pemrograman Mobile / Mobile Technology Programming (mendampingi proses praktikum teknis dan penilaian tugas mahasiswa).}
+        \resumeItem{Lulusan Bangkit Academy -- Cohort Mobile Development (\textit{Distinction Graduate}).}
+        \resumeItem{Peraih Medali Perak pada ajang internasional IDEA Regeneration Expo 2025 (Malaysia) melalui proyek inovatif \textbf{StunBy: Indonesian Baby Growth Tracking App}.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% ---------- PENGALAMAN LAINNYA ----------
+\section{Pengalaman Tambahan}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {1Clickss.com}{Jakarta, Indonesia}
+      {Mobile Developer}{2025 -- Sekarang}
+      \resumeItemListStart
+        \resumeItem{Mengembangkan aplikasi mobile secara penuh dengan merekayasa ulang (\textit{rebuild}) fitur inti dari platform web ke mobile.}
+        \resumeItem{Mengimplementasikan alur autentikasi pengguna, manajemen vendor dan katalog produk, modul transaksi, serta sistem pencarian bisnis terintegrasi.}
+        \resumeItem{Mengoptimalkan performa arsitektur dan UI/UX mobile app agar responsif, stabil, dan setara dengan standar aplikasi versi web.}
+        \resumeItem{Mengintegrasikan REST API backend untuk sinkronisasi data yang konsisten dan real-time antara sistem web dan mobile.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% ---------- PROYEK UNGGULAN ----------
+\section{Proyek Portofolio Terpilih}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{StunBy: Indonesian Baby Growth Tracking App} $|$ \emph{Mobile, HealthTech}}{2025}
+      \resumeItemListStart
+        \resumeItem{Aplikasi mobile pemantauan tumbuh kembang balita untuk pencegahan stunting, dianugerahi \textbf{Silver Medal} pada kompetisi inovasi internasional IDEA Regeneration Expo 2025 di Malaysia.}
+        \resumeItem{Mengimplementasikan grafik pertumbuhan balita berbasis standar WHO, fitur skrining gizi, serta reminder imunisasi berkala bagi orang tua.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Oblix Pilates -- Studio Management System} $|$ \emph{\href{https://oblixpilates.id}{oblixpilates.id}}}{2025}
+      \resumeItemListStart
+        \resumeItem{Sistem manajemen studio pilates modern yang mengelola \textbf{180+ member} dan \textbf{2.120+ sesi kelas}; dilengkapi fitur booking kelas real-time, manajemen membership, waitlist otomatis, dan integrasi payment gateway Midtrans.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% ---------- PRESTASI & PENGHARGAAN ----------
+\section{Prestasi \& Penghargaan}
+\resumeItemListStart
+    \resumeItem{\textbf{Silver Medal} -- IDEA Regeneration Expo 2025 (Malaysia) lewat proyek inovasi \textit{StunBy: Indonesian Baby Growth Tracking App}.}
+    \resumeItem{\textbf{Bangkit Academy Graduate (Distinction)} -- Cohort Mobile Development (Google, GoTo, Traveloka).}
+\resumeItemListEnd
+
+% ---------- KEAHLIAN / SKILLS ----------
+\section{Keterampilan}
+\begin{itemize}[leftmargin=0.0in, label={}]
+    \small{\item{
+     \textbf{Technical Skills}{: Java, Kotlin, Dart, JavaScript, TypeScript, PHP, C++, Next.js, React, Android SDK, Flutter, REST API, IoT, MySQL, PostgreSQL, Git, Midtrans} \\ \vspace{4pt}
+     \textbf{Soft Skills}{: Problem Solving, Team Collaboration, Adaptability, Continuous Learning, Critical Thinking, Time Management}
+    }}
+\end{itemize}
+
+\end{document}

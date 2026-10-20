@@ -1,0 +1,197 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{geometry}
+
+% Clean, ATS-friendly margins
+\geometry{left=1.35cm, right=1.35cm, top=1.35cm, bottom=1.35cm}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{4pt}
+
+% Layout settings
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section Heading Formatting
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+% Custom entry commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1.5pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{1pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{1pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label={--}, itemsep=1.5pt, parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+% -------------------------------------------------------------
+%                          CV CONTENT (ENGLISH)
+% -------------------------------------------------------------
+\begin{document}
+
+% ---------- HEADER / CONTACT ----------
+\begin{center}
+    {\Huge \textbf{NAUFAL}} \\ \vspace{3pt}
+    \small Jakarta, Indonesia \enspace$|$\enspace +62 851-1904-5590 \enspace$|$\enspace \href{mailto:noppal.901@gmail.com}{\underline{noppal.901@gmail.com}} \\ \vspace{2pt}
+    \href{https://linkedin.com/in/naaufaal}{\underline{linkedin.com/in/naaufaal}} \enspace$|$\enspace
+    \href{https://github.com/Nopallse}{\underline{github.com/Nopallse}} \enspace$|$\enspace
+    \href{https://nopallse.vercel.app}{\underline{nopallse.vercel.app}}
+\end{center}
+\vspace{-6pt}
+
+% ---------- PROFESSIONAL SUMMARY ----------
+\section{Professional Summary}
+\vspace{1pt}
+\small{
+Software Engineer with an Information Systems background and proven experience engineering web and mobile applications serving thousands of active users. Proficient across the full software development lifecycle (SDLC), including full-stack development, API integrations, relational databases, system troubleshooting, and deployment. Adept at diagnosing root causes, designing scalable software architectures, rapidly adopting modern technologies, and collaborating in cross-functional agile teams to deliver secure, mission-critical solutions.
+}
+\vspace{2pt}
+
+% ---------- WORK EXPERIENCE ----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+      {PT Mitra Integrasi Informatika (MII)}{Jakarta, Indonesia}
+      {Junior Application Developer -- Bank BNI Placement}{Feb 2026 -- Present}
+      \resumeItemListStart
+        \resumeItem{Engineer and maintain the enterprise-scale \textbf{Operational Risk Management System (ORMS)} actively used by \textbf{1,800+ BNI operational units} (Head Office Divisions, Domestic Branches, and Overseas Branch Offices).}
+        \resumeItem{Architect and implement a configurable \textbf{dynamic workflow engine} across modules, and drive key enhancements for the \textbf{RCSA module} (Control Testing, Monitoring Periods, and risk governance business processes).}
+        \resumeItem{Execute end-to-end full-stack enhancements across the \textbf{frontend, backend, and database architecture} to accommodate feature rollouts, data integrations, and regulatory \textit{change requests}.}
+        \resumeItem{Perform root-cause troubleshooting, defect resolution, and collaborate closely with QA and stakeholders throughout System Integration Testing (SIT) through reliable production releases.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Metro Software Indonesia}{Padang, Indonesia}
+      {Website and Mobile Developer}{May 2025 -- Feb 2026}
+      \resumeItemListStart
+        \resumeItem{\textbf{Ajakan} (\href{http://ajakan.me}{ajakan.me}) -- Full-featured digital invitation SaaS platform (RSVP, guestbook, Smart WhatsApp); processed \textbf{76,500+ orders}, connected \textbf{5.9M+ event guests}, and empowered \textbf{530+ active business partners} across Indonesia with 150+ customizable templates.}
+        \resumeItem{\textbf{Oblix Pilates} (\href{https://oblixpilates.id}{oblixpilates.id}) -- Pilates studio management web application actively managing \textbf{180+ members} and \textbf{2,120+ class sessions}; equipped with real-time booking, trainer scheduling, automated waitlists, and Midtrans payment gateway.}
+        \resumeItem{\textbf{Mitbiz} (\href{https://www.mitbiz.id}{mitbiz.id}) -- Contributed to proprietary AI SaaS platform (AI Sales Agent ecosystem) automating conversational customer engagement, lead qualification, and 24/7 sales closing workflows.}
+        \resumeItem{\textbf{Ryu Powertools \& Rexco Solution} (\href{https://ryupowertools.com}{ryupowertools.com} $|$ \href{https://rexco-solution.com}{rexco-solution.com}) -- Rebuilt and modernized official corporate brand websites for distributor PT Altama Surya Anugerah via WordPress-to-Next.js migration, substantially improving page load speeds and UI/UX.}
+        \resumeItem{\textbf{High Castle Malaysia} (\href{https://highcastle.com.my}{highcastle.com.my}) -- Developed mobile and web platforms for music rehearsal studio booking across customer, admin, and studio owner interfaces.}
+        \resumeItem{\textbf{IoT PlayStation Billing System} -- Developed an IoT-integrated mobile billing system for PlayStation rental centers featuring automated device cutoff/activation, member hour balances, and POS F\&B checkout.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Kominfo Kota Pariaman}{Pariaman, Indonesia}
+      {Full Stack Developer}{May 2025 -- Jan 2026}
+      \resumeItemListStart
+        \resumeItem{Developed a geolocation-based mobile attendance tracking app for all civil servants (PNS/ASN) in Pariaman City, actively serving approximately \textbf{3,000 personnel} daily across regional government agencies.}
+        \resumeItem{Implemented anti-fake GPS spoofing protection mechanisms and enforced a strict \textit{one device one account} policy to safeguard against attendance tampering.}
+        \resumeItem{Secured attendance payload transmissions and record integrity utilizing HMAC-based cryptographic digital signatures.}
+        \resumeItem{Managed production deployment and ensured high system availability and zero-downtime stability during peak daily check-in hours.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Bank Nagari}{Padang, Indonesia}
+      {Internship (Web Developer)}{Jan 2025 -- Feb 2025}
+      \resumeItemListStart
+        \resumeItem{Developed a centralized web-based internship management system for Bank Nagari's Human Capital Division.}
+        \resumeItem{Built modules for applicant registration, document verification, internship period scheduling, and centralized candidate databases.}
+        \resumeItem{Significantly accelerated administrative turnaround times and improved structured reporting for human capital workflows.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% ---------- PAGE 2 ----------
+\pagebreak
+
+% ---------- EDUCATION ----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Universitas Andalas}{Padang, Indonesia}
+      {Bachelor of Science in Information Systems \textnormal{($|$ GPA: 3.80 / 4.00)}}{2022 -- 2026}
+      \resumeItemListStart
+        \resumeItem{Core coursework: Software Engineering, Systems Analysis \& Design, Database Systems, and Mobile/Web Application Development.}
+        \resumeItem{Teaching Assistant for Mobile Technology Programming, facilitating lab sessions and assessing student assignments.}
+        \resumeItem{Graduate of Bangkit Academy -- Mobile Development Cohort (\textit{Distinction Graduate}).}
+        \resumeItem{Won the Silver Medal at the international innovation competition IDEA Regeneration Expo 2025 (Malaysia) for the \textbf{StunBy: Indonesian Baby Growth Tracking App} project.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% ---------- ADDITIONAL EXPERIENCE ----------
+\section{Additional Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {1Clickss.com}{Jakarta, Indonesia}
+      {Mobile Developer}{2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Engineered the complete mobile application by rebuilding core web platform functionalities natively for mobile devices.}
+        \resumeItem{Implemented secure user authentication, vendor and product catalog management, transactional workflows, and business discovery search.}
+        \resumeItem{Optimized mobile application architecture and UI/UX responsiveness to deliver performance on par with the desktop web experience.}
+        \resumeItem{Integrated backend REST APIs to ensure reliable, real-time data synchronization between web and mobile platforms.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% ---------- FEATURED PROJECTS ----------
+\section{Featured Projects}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{StunBy: Indonesian Baby Growth Tracking App} $|$ \emph{Mobile, HealthTech}}{2025}
+      \resumeItemListStart
+        \resumeItem{Mobile application designed to monitor child development metrics for early stunting prevention, awarded the \textbf{Silver Medal} at the IDEA Regeneration Expo 2025 in Malaysia.}
+        \resumeItem{Integrated WHO-standard growth curves, nutritional screening indicators, and automated periodic immunization reminders.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Oblix Pilates -- Studio Management System} $|$ \emph{\href{https://oblixpilates.id}{oblixpilates.id}}}{2025}
+      \resumeItemListStart
+        \resumeItem{Modern studio management web platform actively managing \textbf{180+ members} and \textbf{2,120+ class sessions}; equipped with real-time class booking, membership tiers, automated waitlists, and Midtrans payment gateway checkout.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% ---------- HONORS & AWARDS ----------
+\section{Honors \& Awards}
+\resumeItemListStart
+    \resumeItem{\textbf{Silver Medal} -- IDEA Regeneration Expo 2025 (Malaysia) for the innovative \textit{StunBy: Indonesian Baby Growth Tracking App}.}
+    \resumeItem{\textbf{Bangkit Academy Graduate (Distinction)} -- Mobile Development Cohort led by Google, GoTo, and Traveloka.}
+\resumeItemListEnd
+
+% ---------- SKILLS ----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.0in, label={}]
+    \small{\item{
+     \textbf{Technical Skills}{: Java, Kotlin, Dart, JavaScript, TypeScript, PHP, C++, Next.js, React, Android SDK, Flutter, REST APIs, IoT, MySQL, PostgreSQL, Git, Midtrans} \\ \vspace{4pt}
+     \textbf{Soft Skills}{: Problem Solving, Cross-Functional Team Collaboration, Adaptability, Fast Learner, Critical Thinking, Time Management}
+    }}
+\end{itemize}
+
+\end{document}
